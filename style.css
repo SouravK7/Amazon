@@ -111,3 +111,23 @@
     font-size: 0.85rem;
     font-weight: bold;
 }
+
+/* Box 5*/
+
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 700;
+    font-size: 14px;
+}
+.panel-opts{
+    width: 70%;
+}
+a{
+    margin: 10px;
+}
