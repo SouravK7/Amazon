@@ -8,6 +8,8 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -30,4 +32,19 @@
 }
 .border:hover{
     border: 1px solid white;
+}
+
+/*2nd box*/
+.add-icon{
+    display: flex;
+}
+.address1{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: .85rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.address2{
+    margin-left: 5px;
+    font-weight: bold;
 }
