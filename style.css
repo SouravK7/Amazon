@@ -131,3 +131,32 @@
 a{
     margin: 10px;
 }
+
+/* Hero section*/
+
+.hero-section{
+    background-image: url("images/hero_image.jpg");
+    background-size: cover;
+    
+    height: 350px;
+    width: 100%;
+    
+}
+.hero-msg{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    position: relative;
+    top: 250px;
+    margin: auto;
+}
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
